@@ -13,9 +13,8 @@ public class DemoKuliah {
         dosen.setNimMHS(mahasiswa1.getNim());
         dosen.setNimMHS(mahasiswa2.getNim());
 
-        System.out.println("Kode dosen\t:"+dosen.getKodeDosen());
-        System.out.println("Kode com.RiZe.Meet.Asosiasi.Dosen\t: " + dosen.getKodeDosen());
-        System.out.println("Mengajar com.RiZe.Meet.Asosiasi.Mahasiswa\t: ");
+        System.out.println("Kode Dosen\t: " + dosen.getKodeDosen());
+        System.out.println("Mengajar Mahasiswa\t: ");
 
         for (int i = 0; i < dosen.getJmlMahasiswa(); i++) {
             System.out.println("- " + dosen.getNimMhs(i));
